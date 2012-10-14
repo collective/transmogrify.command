@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="pretaweb.funnelweb"
+    >
+
+
+	  <include package="collective.transmogrifier" file="meta.zcml"/>
+
+    <utility component=".Command"
+             name="transmogrify.command" />
+
+</configure>

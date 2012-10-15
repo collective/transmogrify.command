@@ -68,8 +68,8 @@ Convert Plone content to rst::
 
 and run this via::
 
-    $ easy_install mr.migrator
-    $ migrator --pipeline=pipeline.cfg
+    $ easy_install funnelweb
+    $ funnelweb --pipeline=pipeline.cfg
     
 
 
